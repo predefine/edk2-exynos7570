@@ -1,0 +1,1 @@
+mkbootimg --base 0x010000000 --kernel workspace/UEFI -o boot.img
