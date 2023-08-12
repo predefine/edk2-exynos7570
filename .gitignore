@@ -4,3 +4,4 @@ BootShim/BootShim.bin
 porttmp
 boot.img
 boot.tar
+.vscode

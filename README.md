@@ -1,4 +1,4 @@
-Attempt to create a minimal EDK2 for Exynos 7885 devices
+Attempt to create a minimal EDK2 for Exynos 7570 devices
 
 ## Status
 Boots to UEFI Shell.
@@ -103,7 +103,7 @@ Now you can proceed.
 > [!NOTE]
 > You shouldn't make the device use all the ram yet as it may not boot, stick eith 1.5GB or smaller to be safe.
 
-Go into EXYNOS7885Pkg/Devices and copy a10.dsc to (devicename).dsc, for example we'll copy a10.dsc into s20.dsc
+Go into EXYNOS7885Pkg/Devices and copy j4lte.dsc to (devicename).dsc, for example we'll copy j4lte.dsc into s20.dsc
 
 Now theres only a couple things to edit here thankfully.
 
@@ -154,7 +154,7 @@ Replace the ```enableDecon:``` function with the one you got from the online com
 
 Open build.sh
 
-Replace any mention of a10.dsc with (Device name).dsc
+Replace any mention of j4lte.dsc with (Device name).dsc
 
 Now you can build with the steps above.
 
